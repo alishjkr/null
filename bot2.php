@@ -631,7 +631,7 @@ function zodiak($keyword) {
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
     $text = "Makasih dh invite aku ke grup kak!! Ketik Help untuk gunain aku\n";
-    $text .= "Keyword GalaxySMP ~~~\n";
+    $text .= "Keyword Father Reply Bot V2 http://line.me/ti/~joker.alish ~~~\n";
     $text .= "> /anime-syn [text]\n";
     $text .= "> /anime [text]\n";
     $text .= "> /manga-syn [text]\n";
@@ -1262,7 +1262,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => $profil->displayName.'Apa Woy Manggil Manggil??'
+                    'text' => $profil->displayName.'کارم داشتی صدا زدی عزیز من !؟'
                 )
             )
         );
@@ -1277,7 +1277,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'HALLO '.$profil->displayName
+                    'text' => 'سلام برادر من  '.$profil->displayName
                 )
             )
         );
@@ -1292,7 +1292,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'HALLO '.$profil->displayName
+                    'text' => 'سلام برادر من '.$profil->displayName
                 )
             )
         );
